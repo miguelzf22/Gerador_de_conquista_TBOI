@@ -5,6 +5,11 @@ Gera uma conquista não obtida do The Binding Of Isaac para você tentar desbloq
 
 No momento, o código não é adaptado para as DLCs, então ele vai ler todas as conquistas.
 
+# Gerador de run básico TBOI
+Um gerador de run aleatória baseado no projeto do TRPG0, só que mais feio
+
+No momento, o código não se adapta à sua progressão no jogo.
+
 # Requisitos
 Chave API da Steam: Crie uma váriavel do ambiente chamada "STEAM_API_KEY" e insira sua chave.
 
