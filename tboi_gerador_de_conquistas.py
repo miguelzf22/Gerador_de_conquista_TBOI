@@ -3,7 +3,7 @@ import os
 import random
 import steam_web_api
 from steam_web_api import Steam
-from colorist import green, red
+from colorist import green, red, yellow, magenta, blue
 
 #Pega a Chave API da Steam pela as variáveis do ambiente
 KEY = os.environ.get("STEAM_API_KEY")
@@ -27,12 +27,12 @@ ach_id = int(number["apiname"])
 
 #Define qual DLC a conquista pertence pelo ID da conquista
 if ach_id<179:
-    red("Não é necessário DLCs!!")
+    print("Não é necessário DLCs!!")
 elif ach_id>=179 and ach_id<277:
-    red("Necessário DLC do Afterbirth")
+    yellow("Necessário DLC do Afterbirth")
 elif ach_id>=277 and ach_id<404:
-    red("Necessário DLC do Afterbirth+")
+    magenta("Necessário DLC do Afterbirth+")
 elif ach_id>=404 and ach_id<638:
     red("Necessário DLC do Repetance")
 else:
-    red("Necessário DLC do Repetance+")
+    blue("Necessário DLC do Repetance+")
