@@ -10,7 +10,7 @@ KEY = os.environ.get("STEAM_API_KEY")
 steam = Steam(KEY)
 
 #Preparando as variáveis e as conquistas
-user = steam.apps.get_user_achievements("<seu_id_steam>","250900") #Coloque o seu ID da Steam
+user = steam.apps.get_user_achievements("<seu_id_da_steam>","250900") #Coloque o seu ID da Steam
 user = user["playerstats"]["achievements"]
 
 #Definindo funções para verificar se o personagem está desbloqueado (baseado nas conquistas)
