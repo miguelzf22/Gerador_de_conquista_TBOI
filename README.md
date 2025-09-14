@@ -22,7 +22,7 @@ Possivelmente não terá uma opção para se adaptadar às marks específicas do
 
 **steam_web_api**
 
-Utilize `pip install steam_web_api` e `pip install colorist` para o código funcionar.
+Utilize `pip install steam_web_api` e `pip install colorist` para instlar as bibliotecas, sem elas o código não funciona.
 
 ## Outros
 
