@@ -5,6 +5,9 @@ No momento, o código não é adaptado para as DLCs, então ele vai ler todas as
 
 # Requisitos
 Chave API da Steam: Crie uma váriavel do ambiente chamada "STEAM_API_KEY" e insira sua chave.
+
 The Binding of Isaac: Necessário ter jogado o jogo, não necessariamente possuir (Biblioteca steam, etc.)
+
 DLCs: Altamente recomendado ter a DLC do Repentance. 
+
 Perfil Público: Seu perfil e suas conquistas precisam ser públicos.
