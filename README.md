@@ -18,18 +18,34 @@ Possivelmente não terá uma opção para se adaptadar às marks específicas do
 
 ## Bilbiotecas externas
 
-**colorist**
+### **colorist**
 
-**steam_web_api**
+Utilizada para cores no terminal, no código é apenas cosmético para deixar mais agradável aos olhos.
+
+### **steam_web_api**
+
+Utilizado para obter as conquistas e outras informações do usuário.
+
+### Comandos para instalar
 
 Utilize `pip install steam_web_api` e `pip install colorist` para instlar as bibliotecas, sem elas o código não funciona.
 
 ## Outros
 
-**Chave API da Steam:** Crie uma váriavel do ambiente chamada "STEAM_API_KEY" e insira sua chave.
+**Chave API da Steam:** 
 
-**The Binding of Isaac:** Necessário ter jogado o jogo, não necessariamente possuir (Biblioteca steam, etc.)
+Crie uma váriavel do ambiente chamada "STEAM_API_KEY" e insira sua chave.
 
-**DLCs:** Altamente recomendado ter a DLC do Repentance. 
+Insira o comando `getx STEAM_API_KEY "sua_key"` no terminal do Windows (Substitua o sua_key pela sua chave API da Steam).
 
-**Perfil Público:** Seu perfil e suas conquistas precisam ser públicos.
+**The Binding of Isaac:** 
+
+Necessário ter jogado o jogo, não necessariamente possuir (Biblioteca steam, etc.)
+
+**DLCs:** 
+
+Altamente recomendado ter a DLC do Repentance. 
+
+**Perfil Público:** 
+
+Seu perfil e suas conquistas precisam ser públicos.
