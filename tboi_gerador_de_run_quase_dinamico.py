@@ -273,7 +273,7 @@ def mark_check(n):
             if ach_get(155):
                 return "Mega Satan"
             else:
-                n = random.randint(1,2)
+                n = random.randint(0,1)
         
         case 3:
             if ach_get(341):
